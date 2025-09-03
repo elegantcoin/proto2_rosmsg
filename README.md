@@ -5,7 +5,7 @@ convert proto file to rosmsg (cmake included)
 
 
 🚀 使用方法
-1. ROS msg → Proto
+##1. ROS msg → Proto
 
 假设 msgs/ 目录下有多个 .msg 文件：
 
@@ -14,7 +14,8 @@ python ros_proto_converter.py ros2proto msgs protos
 
 结果会生成到 protos/ 目录。
 
-2. Proto → ROS msg
+##2. Proto → ROS msg
+
 python ros_proto_converter.py proto2ros protos msgs_out
 
 📌 示例
